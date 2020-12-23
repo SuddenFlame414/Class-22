@@ -16,7 +16,7 @@ function setup() {
   console.log(object.position.x);
   console.log(object.position.y);*/
   var ball_options = {
-    restituition: 1
+    restitution: 1
   }
   ball = Bodies.circle(200,100,20,ball_options);
   World.add(world,ball);
